@@ -108,7 +108,7 @@ const onDragEnd = (result, columns, setColumns) => {
       },
     });
   }
-  console.log(result,columns)
+  updateItem(result.draggableId,destination.droppableId)
 };
 
 export default function App() {
