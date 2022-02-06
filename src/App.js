@@ -13,6 +13,7 @@ const columnsFromBackend = {
     name: 'Open',
     items: getItems(10),
   },
+  
   close: {
     name: 'Close',
     items: [],
